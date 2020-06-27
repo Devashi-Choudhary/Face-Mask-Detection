@@ -14,7 +14,7 @@ Deep Learning based Face-Mask-Detector architecture uses [OpenCV](https://opencv
 5. You also need to download [caffe based face detector model](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/  ) and put it inside face_detection folder.
 6. **Training of CNN Model :** Open terminal. Go into the project directory folder and type the following command:
 > `python train.py --dataset dataset`
-7. **Testing of CNN Model :**  You can download the pretrained model from here for inference.
+7. **Testing of CNN Model :**  You can download the pretrained model from [here](https://drive.google.com/file/d/1XW62FB60uLaDwFeqOF6qYhaaA8EosoDh/view?usp=sharing) for inference.
 For detecting face mask in images, run the following command :
 > `python Mask_Detection_in_Image.py --image data/image1.jpg`
 
