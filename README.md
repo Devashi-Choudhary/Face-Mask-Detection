@@ -36,4 +36,6 @@ For detecting face mask in real-time video stream, run the following command :
 
 3. Mask Detection in Real-Time Video Stream.
 
+![Real-Time Video](https://github.com/Devashi-Choudhary/Face_Mask_Detection/blob/master/Results/video_output.mp4)
+
 **Note :** For more details about the implementation, go through [Face-Mask-Detection using Deep Learning](https://medium.com/@Devashi_Choudhary/face-mask-detection-using-deep-learning-83f927654f1e)
