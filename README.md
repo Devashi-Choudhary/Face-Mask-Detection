@@ -10,7 +10,7 @@ Deep Learning based Face-Mask-Detector architecture uses [OpenCV](https://opencv
 2. Make sure you have the correct version of Python installed on your machine. This code runs on Python 3.6 above.
 3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 > `pip install requirements.txt`
-4. Then you need to dataset from [here](https://drive.google.com/drive/folders/1UGQP83v6gdZXefLAkef1PEjfyjUx0cpY?usp=sharing) and put it in the current folder. The images used in the dataset are real images of people wearing mask i.e. tha dataset doesn't contains morphed masked images. The model is accurately trained and, also the system can therefore be used in real-time applications which require face-mask detection.
+4. Now, you need to dataset from [here](https://drive.google.com/drive/folders/1UGQP83v6gdZXefLAkef1PEjfyjUx0cpY?usp=sharing) and put it in the current folder. The images used in the dataset are real images of people wearing mask i.e. tha dataset doesn't contains morphed masked images. The model is accurately trained and, also the system can therefore be used in real-time applications which require face-mask detection.
 5. You also need to download [caffe based face detector model](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/  ) and put it inside face_detection folder.
 6. **Training of CNN Model :** Open terminal. Go into the project directory folder and type the following command:
 > `python train.py --dataset dataset`
@@ -34,3 +34,6 @@ For detecting face mask in real-time video stream, run the following command :
 
 ![output3](https://github.com/Devashi-Choudhary/Face_Mask_Detection/blob/master/Results/image3_output.JPG)
 
+3. Mask Detection in Real-Time Video Stream.
+
+**Note :** For more details about the implementation, go through [Face-Mask-Detection using Deep Learning](https://medium.com/@Devashi_Choudhary/face-mask-detection-using-deep-learning-83f927654f1e)
