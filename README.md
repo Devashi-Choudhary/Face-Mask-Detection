@@ -8,15 +8,29 @@ Deep Learning based Face-Mask-Detector architecture uses [OpenCV](https://opencv
 
 1. You will first have to download the repository and then extract the contents into a folder.
 2. Make sure you have the correct version of Python installed on your machine. This code runs on Python 3.6 above.
-3. Install all dependencies mentioned above. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 > `pip install requirements.txt`
 4. Then you need to dataset from [here](https://drive.google.com/drive/folders/1UGQP83v6gdZXefLAkef1PEjfyjUx0cpY?usp=sharing) and put it in the current folder. The images used in the dataset are real images of people wearing mask i.e. tha dataset doesn't contains morphed masked images. The model is accurately trained and, also the system can therefore be used in real-time applications which require face-mask detection.
 5. You also need to download [caffe based face detector model](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/  ) and put it inside face_detection folder.
 6. **Training of CNN Model :** Open terminal. Go into the project directory folder and type the following command:
 > `python train.py --dataset dataset`
 7. **Testing of CNN Model :**  You can download the pretrained model from [here](https://drive.google.com/file/d/1XW62FB60uLaDwFeqOF6qYhaaA8EosoDh/view?usp=sharing) for inference.
+
 For detecting face mask in images, run the following command :
 > `python Mask_Detection_in_Image.py --image data/image1.jpg`
 
 For detecting face mask in real-time video stream, run the following command :
 > `python Mask_Detection_in_Video.py`
+
+# Results 
+
+1. Accuracy/Loss training curve plot.
+
+![output1](https://github.com/Devashi-Choudhary/Face_Mask_Detection/blob/master/Results/train_loss.png)
+
+2. Mask Detection in Images.
+
+![output2](https://github.com/Devashi-Choudhary/Face_Mask_Detection/blob/master/Results/image1_output.JPG)
+
+![output3](https://github.com/Devashi-Choudhary/Face_Mask_Detection/blob/master/Results/image3_output.JPG)
+
